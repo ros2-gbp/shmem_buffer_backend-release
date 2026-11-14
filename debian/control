@@ -1,0 +1,12 @@
+Source: ros-rolling-shared-buffer-backend-py
+Section: misc
+Priority: optional
+Maintainer: "dskkato" <kato.daisuke429@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pybind11-dev, python3-dev, python3-numpy <!nocheck>, python3-pytest <!nocheck>, ros-rolling-ament-cmake, ros-rolling-ament-cmake-pytest <!nocheck>, ros-rolling-ament-cmake-python, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-rosidl-buffer, ros-rolling-sensor-msgs <!nocheck>, ros-rolling-shared-buffer, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/shared_buffer_backend_py/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-shared-buffer-backend-py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pybind11-dev, python3-dev, ros-rolling-rosidl-buffer, ros-rolling-rosidl-buffer-py, ros-rolling-rpyutils, ros-rolling-shared-buffer, ros-rolling-ros-workspace
+Description: Python zero-copy access to shared-memory rosidl buffers.
