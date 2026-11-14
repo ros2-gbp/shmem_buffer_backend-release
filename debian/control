@@ -1,0 +1,12 @@
+Source: ros-rolling-shared-buffer-backend
+Section: misc
+Priority: optional
+Maintainer: "dskkato" <kato.daisuke429@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-auto, ros-rolling-ament-cmake-gtest <!nocheck>, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-launch-ros <!nocheck>, ros-rolling-launch-testing <!nocheck>, ros-rolling-launch-testing-ament-cmake <!nocheck>, ros-rolling-launch-testing-ros <!nocheck>, ros-rolling-pluginlib, ros-rolling-rclcpp <!nocheck>, ros-rolling-rclcpp-components <!nocheck>, ros-rolling-rcutils, ros-rolling-rosidl-buffer-backend, ros-rolling-rosidl-buffer-backend-registry, ros-rolling-rosidl-runtime-cpp, ros-rolling-rosidl-typesupport-cpp, ros-rolling-sensor-msgs <!nocheck>, ros-rolling-shared-buffer, ros-rolling-shared-buffer-backend-msgs, ros-rolling-std-msgs <!nocheck>, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/shared_buffer_backend/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-shared-buffer-backend
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-pluginlib, ros-rolling-rcutils, ros-rolling-rosidl-buffer-backend, ros-rolling-rosidl-buffer-backend-registry, ros-rolling-rosidl-runtime-cpp, ros-rolling-rosidl-typesupport-cpp, ros-rolling-shared-buffer, ros-rolling-shared-buffer-backend-msgs, ros-rolling-ros-workspace
+Description: Pluginlib backend for shared-memory rosidl::Buffer transport.
