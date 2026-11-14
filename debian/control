@@ -1,0 +1,12 @@
+Source: ros-lyrical-shared-buffer-backend-msgs
+Section: misc
+Priority: optional
+Maintainer: "dskkato" <kato.daisuke429@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rosidl-default-generators, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/shared_buffer_backend_msgs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-shared-buffer-backend-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-rosidl-default-runtime, ros-lyrical-ros-workspace
+Description: Shared-buffer descriptor messages for rosidl::Buffer backend serialization.
