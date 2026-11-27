@@ -1,0 +1,12 @@
+Source: ros-lyrical-shmem-buffer-backend
+Section: misc
+Priority: optional
+Maintainer: "dskkato" <kato.daisuke429@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-auto, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-launch-ros <!nocheck>, ros-lyrical-launch-testing <!nocheck>, ros-lyrical-launch-testing-ament-cmake <!nocheck>, ros-lyrical-launch-testing-ros <!nocheck>, ros-lyrical-pluginlib, ros-lyrical-rclcpp <!nocheck>, ros-lyrical-rclcpp-components <!nocheck>, ros-lyrical-rcutils, ros-lyrical-rosidl-buffer-backend, ros-lyrical-rosidl-buffer-backend-registry, ros-lyrical-rosidl-runtime-cpp, ros-lyrical-rosidl-typesupport-cpp, ros-lyrical-sensor-msgs <!nocheck>, ros-lyrical-shmem-buffer, ros-lyrical-shmem-buffer-backend-msgs, ros-lyrical-std-msgs <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/shmem_buffer_backend/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-shmem-buffer-backend
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-pluginlib, ros-lyrical-rcutils, ros-lyrical-rosidl-buffer-backend, ros-lyrical-rosidl-buffer-backend-registry, ros-lyrical-rosidl-runtime-cpp, ros-lyrical-rosidl-typesupport-cpp, ros-lyrical-shmem-buffer, ros-lyrical-shmem-buffer-backend-msgs, ros-lyrical-ros-workspace
+Description: Pluginlib backend for shared-memory rosidl::Buffer transport.
