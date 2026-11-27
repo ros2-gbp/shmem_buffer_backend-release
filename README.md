@@ -1,3 +1,30 @@
+## shmem_buffer_backend (rolling) - 0.1.1-1
+
+The packages in the `shmem_buffer_backend` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling shmem_buffer_backend` on `Fri, 27 Nov 2026 01:27:00 -0000`
+
+These packages were released:
+- `shmem_buffer`
+- `shmem_buffer_backend`
+- `shmem_buffer_backend_msgs`
+- `shmem_buffer_backend_py`
+
+Version of package(s) in repository `shmem_buffer_backend`:
+
+- upstream repository: https://github.com/dskkato/shmem_buffer_backend.git
+- release repository: https://github.com/ros2-gbp/shmem_buffer_backend-release.git
+- rosdistro version: `0.1.0-1`
+- old version: `0.1.0-1`
+- new version: `0.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## shmem_buffer_backend (lyrical) - 0.1.1-1
 
 The packages in the `shmem_buffer_backend` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical shmem_buffer_backend` on `Fri, 27 Nov 2026 01:25:27 -0000`
